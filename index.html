@@ -82,7 +82,7 @@
             <div class="carousel-caption">
               <h1>Example headline.</h1>
               <p>Online Market place for classified ads for free where buyers meets business owner directly..</p>
-              <p><a class="css3dbutton" href="#">Sign up today</a></p>
+              <p><a data-toggle="modal" href="#myModal" class="css3dbutton" href="#">Sign up today</a></p>
             </div>
           </div>
         </div>
@@ -181,6 +181,11 @@
       </div>
 
       <hr class="featurette-divider">
+      <div class="row featurette counter">
+      	<div class="col-md-4"><h4>123456789</h4></div>
+        <div class="col-md-4"><h4>123456789</h4></div>
+        <div class="col-md-4"><h4>123456789</h4></div>      
+      </div>
 
       <!-- /END THE FEATURETTES -->
 
@@ -192,8 +197,25 @@
       </footer>
 
     </div><!-- /.container -->
-
-
+    
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
